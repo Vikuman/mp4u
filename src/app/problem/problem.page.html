@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <!-- <ion-item> -->
+    <ion-buttons slot="start">
+    <ion-button fill="clear" href ="tabs/home" ><ion-icon name="arrow-round-back"></ion-icon></ion-button>
+    </ion-buttons>
+    <ion-title>Create A New Yojana</ion-title>
+    <!-- </ion-item> -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-item>
+        <ion-button>Upload Image</ion-button>
+      </ion-item>
+
+<ion-item>
+  <ion-label position="floating" placeholder="Enter Input">Title</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="floating" placeholder="Enter Input">Description</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+
+<!-- <ion-item>
+  <ion-label position="floating" placeholder="Enter Input">Tags</ion-label>
+  <ion-input></ion-input>
+</ion-item> -->
+
+<!-- <ion-item>
+  <ion-label>Date</ion-label>
+  <ion-datetime display-format="DD/MM/YYYY" picker-format="MMMM YYYY"></ion-datetime>
+</ion-item> -->
+
+
+<!-- <ion-button color="primary" ><ion-icon name="camera"></ion-icon>Add An Image</ion-button> -->
+<!-- <ion-list>
+  <ion-list-header>Select Relevant Category</ion-list-header>
+  <ion-item>
+    <ion-label>Water Related</ion-label>
+    <ion-checkbox color="primary"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+
+    <ion-label>Railways And Roads</ion-label>
+    <ion-checkbox color="primary"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Public Health</ion-label>
+    <ion-checkbox color="primary"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Sanitation </ion-label>
+    <ion-checkbox color="primary"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Education</ion-label>
+    <ion-checkbox color="primary"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Agriculture</ion-label>
+    <ion-checkbox color="primary"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Irrigation</ion-label>
+    <ion-checkbox color="primary"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Miscellaneous</ion-label>
+    <ion-checkbox color="primary"></ion-checkbox>
+  </ion-item>
+
+
+</ion-list> -->
+
+
+  <ion-button color="primary"  (click)="presentAlertConfirm()"><ion-icon name="create"></ion-icon>CREATE</ion-button>
+  <ion-button color="dark" href ="problem" ><ion-icon name="close-circle-outline"></ion-icon>CLEAR ALL</ion-button>
+  <!-- <ion-button color="primary" (click)="presentAlertConfirm()" >Submit</ion-button> -->
+  <!-- <ion-button color="dark" href ="tabs/home" >Go Back</ion-button> -->
+
+</ion-content>

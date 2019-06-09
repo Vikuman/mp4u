@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>MP4U</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    <ion-img src="/assets/pothole.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>High Priority</ion-card-subtitle>
+    <ion-icon name="star"></ion-icon>
+    <ion-card-title>Killer Potholes</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>The government said it will concretise part of the highway by 2020.</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list lines="none">
+    <ion-list-header>
+      <ion-icon name="build"></ion-icon><ion-title>Top Issues </ion-title>
+    </ion-list-header>
+
+    <ion-card class="welcome-card">
+      <!-- <ion-img src="/assets/shapes.svg"></ion-img> -->
+      <ion-item href="description">
+      <ion-avatar slot="start">
+        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+      </ion-avatar>
+      <ion-label>Vikas Bansal</ion-label>
+      </ion-item>
+      <ion-card-content>
+        <p>The government said it will concretise part of the highway by 2020.</p>
+        <ion-button><ion-icon name="arrow-dropup"></ion-icon>123</ion-button>
+        <ion-button color="danger"><ion-icon name="arrow-dropdown"></ion-icon>321</ion-button>
+        <ion-button color="light"><ion-icon name="people"></ion-icon>100</ion-button>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="welcome-card">
+      <!-- <ion-img src="/assets/shapes.svg"></ion-img> -->
+      <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+      </ion-avatar>
+      <ion-label>Sid Solanki</ion-label>
+      </ion-item>
+      <ion-card-content>
+        <p>The government said it will concretise part of the highway by 2020.</p>
+        <ion-button><ion-icon name="arrow-dropup"></ion-icon>99</ion-button>
+        <ion-button color="danger"><ion-icon name="arrow-dropdown"></ion-icon>1</ion-button>
+        <ion-button color="light"><ion-icon name="people"></ion-icon>75</ion-button>
+      </ion-card-content>
+    </ion-card>
+
+
+  </ion-list>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="secondary" >
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+    <!-- <ion-chip> -->
+    <!-- <p>New Issue</p> -->
+    <ion-fab-button href="problem" data-desc="New Yojana">
+      <ion-icon name="hammer"></ion-icon>
+      <!-- <ion-label>To Bed</ion-label> -->
+    </ion-fab-button>
+    <!-- </ion-chip> -->
+    <!-- <ion-chip> -->
+    <!-- <p>Query</p> -->
+    <ion-fab-button href="stream" data-desc="Live Stream">
+      <ion-icon name="videocam"></ion-icon>
+      <!-- <ion-label>To Bed</ion-label> -->
+    </ion-fab-button>
+    <!-- </ion-chip> -->
+    <!-- <ion-chip> -->
+    <!-- <p>To Bed<p> -->
+    <ion-fab-button href="problem" data-desc="Update">
+      <ion-icon name="information-circle"></ion-icon>
+      <!-- <ion-label>To Bed</ion-label> -->
+    </ion-fab-button>
+    <!-- </ion-chip> -->
+  </ion-fab-list>
+  </ion-fab>
+</ion-content>
